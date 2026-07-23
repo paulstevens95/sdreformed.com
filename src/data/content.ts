@@ -206,7 +206,7 @@ export const team: { intro: string; groups: TeamGroup[] } = {
       note: "The deacons attend to the practical and mercy needs of the body so the elders may devote themselves to the Word.",
       people: [
         { name: "Richard Higgins", role: "Deacon", photo: `${import.meta.env.BASE_URL}img/DeaconRichardHiggins.jpeg`, bio: "Richard serves the congregation as a deacon, attending to the practical needs of the body." },
-        { name: "Paul Stevens", role: "Deacon", photo: `${import.meta.env.BASE_URL}img/DeaconPaulStevens.jpeg`, bio: "Paul serves the congregation as a deacon, attending to the practical needs of the body." },
+        { name: "Paul Stevens", role: "Deacon", photo: `${import.meta.env.BASE_URL}img/DeaconPaulStevens.jpg`, bio: "Paul serves the congregation as a deacon, attending to the practical needs of the body." },
       ],
     },
   ],
