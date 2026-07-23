@@ -1,5 +1,7 @@
 # San Diego Reformed Church — Website
 
+[![Deploy React app to GitHub Pages](https://github.com/paulstevens95/sdreformed.com/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/paulstevens95/sdreformed.com/actions/workflows/deploy.yml)
+
 Source for [sdreformed.com](https://sdreformed.com). A confessional, Reformed Baptist church in La Mesa, California.
 
 ## Tech stack
