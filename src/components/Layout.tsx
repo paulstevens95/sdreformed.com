@@ -1,0 +1,19 @@
+import { useEffect } from "react";
+import { Outlet, useLocation } from "react-router-dom";
+import Nav from "./Nav";
+import Footer from "./Footer";
+
+export default function Layout() {
+  const { pathname } = useLocation();
+  // Scroll to top on navigation.
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return (
+    <>
+      <Nav />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
+  );
+}
