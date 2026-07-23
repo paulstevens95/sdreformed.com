@@ -84,7 +84,6 @@ sdreformed.com/
 
 All site copy — service time, address, nav links, team bios, beliefs, book list, etc. — lives in **`src/data/content.ts`**. Each page imports only what it needs from that file.
 
-- **Team photos & logo** link to images hosted on the WordPress site. To make the site fully self-contained, download them into `public/img/` and update the URLs in `content.ts`.
 - **Subsplash embeds** (Events, Sermons) are injected via the Subsplash external embed script. To update an embed, replace the embed ID and path string in the relevant page component.
 
 ## Deploy to GitHub Pages
