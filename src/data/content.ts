@@ -198,7 +198,7 @@ export const team: { intro: string; groups: TeamGroup[] } = {
         { name: "Sean Kinnally", role: "Associate Pastor", photo: `${import.meta.env.BASE_URL}img/PastorSeanKinnally.jpeg`, bio: "Sean is responsible for ministering the word in preaching and counseling at SDRC." },
         { name: "Rony Renfrow III", role: "Lay Elder", photo: `${import.meta.env.BASE_URL}img/PastorRonyRenfrow.jpeg`, bio: "Rony is responsible for the liturgy and executive duties at SDRC." },
         { name: "Jacob Merkey", role: "Lay Elder", photo: `${import.meta.env.BASE_URL}img/PastorJacobMerkey.jpeg`, bio: "Jacob is responsible for the liturgy and counseling duties at SDRC." },
-        { name: "Jonathan Lamb", role: "Lay Elder", photo: `${import.meta.env.BASE_URL}img/DeaconJonathanLamb.jpeg`, bio: "Jonathan is responsible for the liturgy and financial and administration duties at SDRC." },
+        { name: "Jonathan Lamb", role: "Lay Elder", photo: `${import.meta.env.BASE_URL}img/PastorJonathanLamb.jpeg`, bio: "Jonathan is responsible for the liturgy and financial and administration duties at SDRC." },
       ],
     },
     {
@@ -206,7 +206,7 @@ export const team: { intro: string; groups: TeamGroup[] } = {
       note: "The deacons attend to the practical and mercy needs of the body so the elders may devote themselves to the Word.",
       people: [
         { name: "Richard Higgins", role: "Deacon", photo: `${import.meta.env.BASE_URL}img/DeaconRichardHiggins.jpeg`, bio: "Richard serves the congregation as a deacon, attending to the practical needs of the body." },
-        { name: "Paul Stevens", role: "Deacon", photo: "", bio: "Paul serves the congregation as a deacon, attending to the practical needs of the body." },
+        { name: "Paul Stevens", role: "Deacon", photo: `${import.meta.env.BASE_URL}img/DeaconPaulStevens.jpeg`, bio: "Paul serves the congregation as a deacon, attending to the practical needs of the body." },
       ],
     },
   ],
